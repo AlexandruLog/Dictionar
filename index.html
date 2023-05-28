@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dictionar</title>
+    <link rel="shortcut icon" href="./assets/glass.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="save-new-word">
+      <label for="new-word-input">Add word</label><br />
+      <input type="text" name="new-word-input" id="new-word-input" />
+      <button type="button" onclick="addWord()">Add</button>
+    </div>
+    <div class="search-word">
+      <label>Search word</label><br />
+      <input type="text" name="search-input" id="search-word-input" />
+      <button type="button" onclick="searchWord()">Search</button>
+      <p id="check-word-existance"></p>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
